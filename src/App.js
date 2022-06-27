@@ -14,6 +14,7 @@ function App() {
     <div className="App">
         <div className="header">
           <h1>UTube Downloader</h1>
+          <hr></hr>
         </div>
 
 
@@ -51,7 +52,7 @@ function App() {
 
           <div className="item2">
           <div className="btn">
-              <iframe src={str}>
+              <iframe id="bt" src={str} title="loader button api">
               </iframe>
             </div>
           </div>
